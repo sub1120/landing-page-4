@@ -1,0 +1,76 @@
+* {
+    padding:0px;
+    margin:0px;
+}
+
+.main{
+    margin: 50px 100px;
+}
+
+.header{
+    position:relative;
+    height: 80px;
+}
+
+.logo{
+    position: absolute;
+    top:0px;
+    bottom:0px;
+    left:0px;
+    margin:auto 0px;
+    height: fit-content;
+}
+
+.logo img{
+    width: 120px;
+}
+
+.nav{
+    position: absolute;
+    top:0px;
+    bottom:0px;
+    left:200px;
+    margin:auto 0px;
+    height: fit-content;
+}
+
+.nav-item{
+    display: inline;
+    margin:0px 10px;
+}
+
+.contact{
+    position: absolute;
+    top:0px;
+    bottom:0px;
+    right:0px;
+    margin:auto 0px;
+    height: fit-content;
+}
+
+.left{
+    padding: 100px 0px;
+    width: 400px;
+}
+
+.heading{
+    font-size: 30px;
+}
+
+.quote{  
+    margin:20px 0px;
+}
+
+.services-button{
+    margin:20px 0px;
+}
+
+.bg{
+    position: absolute;
+    right:0px;
+    top:150px;
+}
+
+.bg img{
+    width: 800px;
+}

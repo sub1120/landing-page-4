@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
 * {
     padding:0px;
     margin:0px;
@@ -5,11 +7,17 @@
 
 .main{
     margin: 50px 100px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
 }
 
 .header{
     position:relative;
     height: 80px;
+}
+
+.crush{
+    color:#4D49AD;
 }
 
 .logo{
@@ -39,6 +47,15 @@
     margin:0px 10px;
 }
 
+.nav-link{
+    text-decoration: none;
+    color:#B3B3B3;
+}
+
+.nav-link.active{
+    color:#000000;
+}
+
 .contact{
     position: absolute;
     top:0px;
@@ -48,6 +65,15 @@
     height: fit-content;
 }
 
+.contact button{
+    background: #5955B3;
+    border-radius: 10px;
+    padding:15px 20px;
+    border:none;
+    color:#ffffff;
+    font-weight: 600;
+}
+
 .left{
     padding: 100px 0px;
     width: 400px;
@@ -55,6 +81,7 @@
 
 .heading{
     font-size: 30px;
+    font-weight: 600;
 }
 
 .quote{  
@@ -63,6 +90,15 @@
 
 .services-button{
     margin:20px 0px;
+}
+
+.services-button button{
+    background: #5955B3;
+    border-radius: 10px;
+    padding:15px 20px;
+    border:none;
+    color:#ffffff;
+    font-weight: 600;
 }
 
 .bg{
